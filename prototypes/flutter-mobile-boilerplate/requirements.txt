@@ -1,0 +1,118 @@
+# =============================================================================
+# AI-NATIVE FLUTTER MOBILE BOILERPLATE - PYTHON DEPENDENCIES
+# =============================================================================
+# Python dependencies for AI model integration, data processing, and backend services
+
+# Core AI Libraries
+openai>=1.0.0                    # OpenAI API client
+anthropic>=0.7.0                 # Anthropic Claude API client
+google-generativeai>=0.3.0       # Google AI (Gemini) API client
+azure-openai>=1.0.0              # Azure OpenAI API client
+
+# Machine Learning & Deep Learning
+tensorflow>=2.13.0               # TensorFlow for ML models
+torch>=2.0.0                     # PyTorch for deep learning
+transformers>=4.30.0             # Hugging Face Transformers
+sentence-transformers>=2.2.0     # Sentence embeddings
+scikit-learn>=1.3.0              # Traditional ML algorithms
+numpy>=1.24.0                    # Numerical computing
+pandas>=2.0.0                    # Data manipulation and analysis
+
+# Computer Vision
+opencv-python>=4.8.0             # Computer vision library
+Pillow>=10.0.0                   # Image processing
+face-recognition>=1.3.0          # Face recognition library
+mediapipe>=0.10.0                # Google's ML solutions
+
+# Natural Language Processing
+nltk>=3.8.0                      # Natural Language Toolkit
+spacy>=3.6.0                     # Advanced NLP library
+textblob>=0.17.0                 # Simple text processing
+langdetect>=1.0.9                # Language detection
+
+# Speech & Audio Processing
+speechrecognition>=3.10.0        # Speech recognition library
+pydub>=0.25.0                    # Audio manipulation
+librosa>=0.10.0                  # Audio analysis
+gtts>=2.3.0                      # Google Text-to-Speech
+
+# Vector Databases & Embeddings
+pinecone-client>=2.2.0           # Pinecone vector database
+weaviate-client>=3.22.0          # Weaviate vector database
+chromadb>=0.4.0                  # Chroma vector database
+faiss-cpu>=1.7.4                 # Facebook AI Similarity Search
+
+# Web Framework & API
+fastapi>=0.100.0                 # Modern web framework
+uvicorn>=0.23.0                  # ASGI server
+pydantic>=2.0.0                  # Data validation
+requests>=2.31.0                 # HTTP library
+httpx>=0.24.0                    # Async HTTP client
+
+# Database & Storage
+sqlalchemy>=2.0.0                # SQL toolkit and ORM
+psycopg2-binary>=2.9.0           # PostgreSQL adapter
+pymongo>=4.4.0                   # MongoDB driver
+redis>=4.6.0                     # Redis client
+supabase>=1.0.0                  # Supabase client
+
+# Authentication & Security
+pyjwt>=2.8.0                     # JSON Web Token implementation
+cryptography>=41.0.0             # Cryptographic library
+passlib>=1.7.4                   # Password hashing
+python-multipart>=0.0.6          # Form data parsing
+
+# Cloud Services
+boto3>=1.28.0                    # AWS SDK
+google-cloud-storage>=2.10.0     # Google Cloud Storage
+azure-storage-blob>=12.17.0      # Azure Blob Storage
+cloudinary>=1.33.0               # Cloudinary SDK
+
+# Data Processing & Analysis
+beautifulsoup4>=4.12.0           # Web scraping
+lxml>=4.9.0                      # XML and HTML processing
+openpyxl>=3.1.0                  # Excel file processing
+python-docx>=0.8.11              # Word document processing
+PyPDF2>=3.0.0                    # PDF processing
+
+# Utilities & Helpers
+python-dotenv>=1.0.0             # Environment variable loading
+pydantic-settings>=2.0.0         # Settings management
+loguru>=0.7.0                    # Advanced logging
+rich>=13.4.0                     # Rich text and beautiful formatting
+typer>=0.9.0                     # CLI framework
+schedule>=1.2.0                  # Job scheduling
+
+# Development & Testing
+pytest>=7.4.0                    # Testing framework
+pytest-asyncio>=0.21.0           # Async testing
+black>=23.7.0                    # Code formatting
+flake8>=6.0.0                    # Code linting
+mypy>=1.5.0                      # Static type checking
+pre-commit>=3.3.0                # Git hooks
+
+# Monitoring & Observability
+sentry-sdk>=1.29.0               # Error tracking
+prometheus-client>=0.17.0        # Metrics collection
+
+# Optional: Jupyter & Data Science
+jupyter>=1.0.0                   # Jupyter notebook
+matplotlib>=3.7.0                # Plotting library
+seaborn>=0.12.0                  # Statistical visualization
+plotly>=5.15.0                   # Interactive plotting
+
+# Optional: Advanced AI Features
+langchain>=0.0.200               # LLM application framework
+llama-index>=0.7.0               # Data framework for LLMs
+guidance>=0.0.64                 # Language model guidance
+tiktoken>=0.4.0                  # OpenAI tokenizer
+
+# =============================================================================
+# INSTALLATION NOTES
+# =============================================================================
+# 1. Create virtual environment: python -m venv ai_env
+# 2. Activate: source ai_env/bin/activate (Linux/Mac) or ai_env\Scripts\activate (Windows)
+# 3. Install: pip install -r requirements.txt
+# 4. For GPU support with PyTorch: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# 5. For TensorFlow GPU: pip install tensorflow[and-cuda]
+# 6. Some packages may require additional system dependencies (e.g., ffmpeg for audio processing)
