@@ -1,10 +1,10 @@
-# Nusma-repo
+# THE AGENTS DEN
 
 **A collaborative prototyping repository for AI-assisted development**
 
 ## Overview
 
-This repository serves as my primary workspace for prototyping applications and software solutions in collaboration with **Manus**, an autonomous AI agent. Here, I experiment with various technologies, test new ideas, and develop proof-of-concepts across different domains.
+This repository serves as my primary workspace for prototyping applications and software solutions in collaboration with autonomous AI agent(CLAUDE, CODEX, MANUS etc). Here, I experiment with various technologies, test new ideas, and develop proof-of-concepts across different domains.
 
 ## Purpose
 
