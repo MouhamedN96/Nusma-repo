@@ -25,7 +25,7 @@ This repository contains various experimental projects and prototypes, including
 
 ## Collaboration Workflow
 
-### With Manus AI Agent
+### With  AI Agents
 
 1. **Ideation**: Discussing project concepts and requirements
 2. **Planning**: Breaking down complex ideas into manageable components
